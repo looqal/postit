@@ -5,21 +5,21 @@ Textboard with a Post-it notes theme
 
 Create an SQL database with this architecture:
 
->posts
+>posts (table)
  
-   >>id
+   >>id (primary int AI)
  
-   >>content
+   >>content (text)
 
 ;
 
 >replies:
    
-   >>reply_id
+   >>reply_id (primary int AI)
    
-   >>reply_content
+   >>reply_content (text)
    
-   >>reply_rel
+   >>reply_rel (int)
 
 .
 
