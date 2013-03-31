@@ -25,7 +25,8 @@ Create an SQL database with this architecture:
 
 Current issues:
 
-The usage of htmlentities() prevents the poster from using apostrophes, quotmarks, and hyphens
+ - the usage of htmlentities() prevents the poster from using apostrophes, quotmarks, and hyphens
  - but has to remain due to prevention of <iframe>s and <object>s being posted.
 
-Can't seem to control post order.
+ - can't seem to control post order.
+ - other possible leaks/bugs/exploits/holes
