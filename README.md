@@ -13,7 +13,7 @@ Create an SQL database with this architecture:
 
 ;
 
->replies:
+>replies (table)
    
    >>reply_id (primary int AI)
    
