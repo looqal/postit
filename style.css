@@ -1,0 +1,59 @@
+body {
+	background: #222;
+	color: #FFF;
+	font-family: Calibri;
+}
+OP {
+	background: #333;
+	padding: 20px;
+	display: block;
+	margin-left: auto; margin-right: auto;
+	text-align: center;
+		font-family: Calibri; font-size: 1.2em; color: #FFF;
+	cursor: default;
+}
+a.navbar {
+	color: #FFF;
+}
+OP small {
+	color: #AAA;
+}
+#notes {
+	margin: 10px;
+	display: inline-block;
+}
+.note {
+	border-bottom-right-radius: 100px 50px;
+	background: -webkit-linear-gradient(120deg, #FFFF00, #BDBD80);
+	padding: 25px;
+	box-shadow: 0px 0px 10px 1px #111;
+	color: #000;
+	text-shadow: 1px 1px 10px #FFF;
+		-webkit-transition: box-shadow .3s;
+}
+.note:hover {
+	box-shadow: 0px 0px 10px 1px #FFF;
+		-webkit-transition: box-shadow .3s;
+}
+input[type=submit]{
+	background: #333; border: 1px dashed #111;
+	color: #FFFF00;
+	font-family: Calibri; font-size: .9em;
+}
+.notepad {
+	background: #FFFF00;
+	color: #0000FF;
+	font-family: Calibri;
+}
+input[type=radio] {
+	display: none;
+}
+.home {
+	background: #333;
+	padding-left: 5px; padding-right: 5px; padding-top: 1px; padding-bottom: 1px;
+	border-radius: 2px;
+	border: 1px dashed #111;
+	color: #FFFF00;
+	font-family: Calibri;
+	font-size: .9em;
+}
